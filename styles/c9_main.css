@@ -196,12 +196,17 @@ footer p {
 @media only screen and (max-width: 648px) {
 	header img { float: none; }
 	header { text-align: center; }
+	main {
+        flex-direction: column; /* Displaying flex items in a column */
+    }
 	section {
 		width: 95%;
+		order: 1;
 	}
 	aside {
 		padding-right: 2.5%;
 		width: 95%;
+		order: 2;
 	}
 	article img { max-width: 30%; }
 	#speakers {
