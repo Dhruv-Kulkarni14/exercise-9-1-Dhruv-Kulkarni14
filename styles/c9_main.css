@@ -165,12 +165,12 @@ footer p {
 	display: none;
 }
 #nav_menu {
-  display: flex;
   flex-basis: 100%;
   justify-content: space-between;
 }
 
 #nav_menu ul {
+	display: flex;
 	width: 100%;
 }
 
