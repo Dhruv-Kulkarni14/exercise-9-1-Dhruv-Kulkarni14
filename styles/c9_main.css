@@ -176,6 +176,7 @@ footer p {
 
 #nav_menu ul li {
   display: block;
+	flex-basis: 20%;
 }
 @media only screen and (max-width: 734px) {
 	section h1 {
