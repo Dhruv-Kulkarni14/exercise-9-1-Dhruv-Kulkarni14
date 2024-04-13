@@ -171,7 +171,7 @@ footer p {
 }
 
 #nav_menu ul {
-  display: flex;
+	width: 100%;
 }
 
 #nav_menu ul li {
