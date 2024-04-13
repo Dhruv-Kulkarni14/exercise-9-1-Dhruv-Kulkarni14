@@ -164,17 +164,17 @@ footer p {
 #mobile_menu {
 	display: none;
 }
-.navigation-menu {
+#nav_menu {
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
 }
 
-.navigation-menu ul {
+#nav_menu ul {
   display: flex;
 }
 
-.navigation-menu ul li {
+#nav_menu ul li {
   display: block;
 }
 @media only screen and (max-width: 734px) {
