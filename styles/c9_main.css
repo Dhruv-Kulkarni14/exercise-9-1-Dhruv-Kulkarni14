@@ -164,7 +164,19 @@ footer p {
 #mobile_menu {
 	display: none;
 }
+.navigation-menu {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
 
+.navigation-menu ul {
+  display: flex;
+}
+
+.navigation-menu ul li {
+  display: block;
+}
 @media only screen and (max-width: 734px) {
 	section h1 {
 		font-size: 125%
